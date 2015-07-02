@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://i.imgur.com/TPIlorn.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10473641_286344174896136_2595738663568895130_n.jpg?oh=63d76ce588b130324d400c9a435264bb&oe=55F00097">
+    <h1>BKARS</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">CERTS</a></li>
+      <li><a href="#">Education</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Computers, Guns, and Scifi</h2>
+    <p>I currently work as a Junior System Administrator and love working with computers and networks. I am a student at MSU and have spent 4 years in the USMCR. I spend the majority of my spare time shooting my many guns or playing video games. When I am feeling productive I work on my home  servers and network or read work relevant material. </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Dem Certs Bruh</h2>
+    <p>CompTIA A+, and CompTIA Network+</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>My Education</h2>
+    <p>Im a senior at MSU and with five classes left I am ready to graduate and focus on IT.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Well Hell Yeah!");
+    });
+  </script>
+</body>
+
