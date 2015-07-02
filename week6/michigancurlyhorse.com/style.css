@@ -1,0 +1,160 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+  /*font-family: 'La Belle Aurore', cursive;*/
+  	font-family: 'Leckerli One', cursive;
+  	font-size: 35px;
+  	color: white;
+  	width: 500px;
+  	margin: 0px;
+}
+
+h2 {
+	font-family:  'Leckerli One', cursive;
+}
+
+li {
+	font-family: "Leckerli One", cursive;
+	text-align: center;
+	font-size: 16px;
+	color: #aaaaaa;
+	display: inline;
+	margin: 0px 4px 0px 0px;
+	text-decoration: none;
+
+}
+
+ul{
+	width: 100%;
+	text-decoration: none;
+}
+
+body {
+
+	background-color: #ebebeb;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ec008c;
+}
+
+/* selected link */
+a:active {
+    color: #ec008c;
+}
+
+.text {
+	position: relative;
+	top: -440px;
+	padding-left: 10px;
+	width: 830px;
+	z-index: -3;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.banner {
+	position: fixed;
+	padding: 0px;
+	padding-bottom: 50px;
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.95) 0%, rgba(0,0,0,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 100%);
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 100%);
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.95) 0%,rgba(0,0,0,0) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+	z-index: -1;
+	width: 100%;
+}
+
+.menu {
+	position: fixed;
+	left: 37.5%;
+	text-decoration: none;
+	display: inline;
+	
+}
+
+.horseIMG1 {
+	position: relative;
+	top: 0px;
+	z-index: -2;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.horseIMG2 {
+	position: relative;
+	left: 625px;
+	top: -622px;
+	z-index: -2;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	
+}
+
+.farmIMG1 {
+	position: relative;
+	top: 0px;
+	z-index: -2;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.farmIMG2 {
+	position: relative;
+	left: 625px;
+	top: -435px;
+	z-index: -2;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+.fb_logo {
+	position: fixed;
+	z-index: 1;
+	top: 12px;
+	left: 84%;
+
+}
+
+.insta_logo {
+	position: fixed;
+	z-index: 1;
+	top: 10px;
+	left: 90%;
+}
+.fixed{
+    position:fixed;
+    bottom:0px;
+    left:80%;
+
+ }
+
+.bottom_text {
+	font-family: "Leckerli One", cursive;
+	position: relative;
+	bottom: -1%;
+	left: -1%;
+	background-color: white;
+	z-index: -2;
+	padding-left:40px; 
+	border-radius: 40px;
+}
+
+
